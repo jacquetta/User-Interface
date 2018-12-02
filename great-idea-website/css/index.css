@@ -65,17 +65,22 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .navigation {
-	width: 1200px;
+	width: 1000px;
 	height: 75px;
 	margin: 0 auto;
 }
 
 .navigation .top-nav {
 	display: inline-block;
-	position: relative;
-	width: 550px;
-	padding-top: 25px;
-	padding-left: 50px;
+	position: fixed;
+	width: 32%;
+	top: 0;
+	/* border: 1px solid black; */
+	background: pink;
+	height: 30px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 5px;
 }
 
 .navigation a {
@@ -86,15 +91,15 @@ h1, h2, h3, h4, h5 {
 
 .navigation .nav-logo {
 	display: inline-block;
-	position: absolute;
-	width: 500px;
-	padding-top: 20px;
-	padding-left: 60px;
+	position: relative;
+	width: 50%;
+	top: 0;
+	left: 550px;
 	
 }
 
 header {
-	width: 1200px;
+	width: 1000px;
 	height: 465px;
 	margin: 0 auto;
 	border-bottom: 1px solid black;
@@ -127,7 +132,7 @@ header .img-head {
 }
 
 .top-section {
-	width: 1200px;
+	width: 1000px;
 	height: 100px;
 	margin: 0 auto;
 	padding-top: 10px;
@@ -147,11 +152,11 @@ header .img-head {
 }
 
 .middle-img {
-	margin: 20px 0 20px 150px;
+	margin: 20px 0 20px 250px;
 }
 
 .bottom-section {
-	width: 1200px;
+	width: 1000px;
 	height: 75px;
 	margin: 0 auto;
 	padding-left: 30px;
@@ -180,11 +185,11 @@ header .img-head {
 
 .contact {
 	border-top: 1px solid black;
-	width: 1200px;
+	width: 1000px;
 	height: 60px;
 	margin-top: 80px;
 	display: inline-block;
-	margin-left: 140px;
+	margin-left: 250px;
 }
 
 
