@@ -124,10 +124,26 @@ header h1 {
 
 button {
 	margin-left: 150px;
-	width: 100px;
-	height: 25px;
-	
+	width: 30%;
+	height: 55px;
+	border-radius: 50%;
+	border: 1px solid palevioletred;
+	background-color: palegoldenrod;
 }
+
+button:hover span{
+	padding-right: 25px;
+}
+
+button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 header .img-head {
 	display: inline-block;
 	position: relative;
